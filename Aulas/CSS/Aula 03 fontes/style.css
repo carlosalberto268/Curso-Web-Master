@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.artigo
+{
+   width: 1280px;
+   margin: 40px auto;
+   text-align: center; 
+   background-color: aquamarine;
+   padding: 40px;
+}
+
+.artigo h1
+{
+    color: #23609e;
+    font-size: 5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-variant: small-caps;
+    letter-spacing: 150px;
+}
+
+.artigo p 
+{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: burlywood;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    line-height: 40px;
+    text-align: left;
+
+}

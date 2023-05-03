@@ -1,0 +1,38 @@
+/*#div1 > h1* O sinal de maior segnifica que estou pedido para procurar na div filha, ou seja que esteja dentro da div relacionada */
+
+#div1 h1 /*Para chamar uma ID basta colocar o " # " antes da TAG*/ 
+
+/* #div1 é a chamada para a div relacionada, se quiser chamar outra TAG, basta adicionar a quai quere ser usada, exemplo? h1, p, span etc. 
+
+Desta maneirar é procurado o valor direto da div*/
+
+/*Pode usar o sinal de > oara chamar uma div filha, OU SEJA DIRRETAMENTE DENTRO DA DIV
+<body>
+    <div id="div1" class="div1">
+        <h1>Titulo 1</h1> DIV FILHA
+        <div>
+        <h1>Titulo 1</h1>
+        </div>
+    </div>
+*/
+
+/*Para chamar uma ID basta colocar o " # " antes da TAG*/
+{
+ color: lightsalmon;
+}
+
+#div2 h1
+{
+    color: blueviolet;
+}
+
+
+.div1 p /*Para chamar uma classe basta colocar o " . " antes da TAG*/
+{
+    text-decoration: line-through;
+}
+
+.div2 p
+{
+    text-decoration: overline;
+}
