@@ -2,20 +2,24 @@
     margin: 0;
     padding: 0;
 }
+html,body{
+    height: 100%;
+}
 
 .artigo
 {
-   width: 1280px;
-   margin: 40px auto;
+   width: 100%;
+   /*max-width: 300px;*/
+  /* height: auto; */
    text-align: center; 
    background-color: aquamarine;
-   padding: 40px;
+
 }
 
 .artigo h1
 {
     color: #23609e;
-    font-size: 5em;
+    font-size: 3em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: normal;
