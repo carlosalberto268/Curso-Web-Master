@@ -6,8 +6,9 @@ html, body
 
 .center
 {
-    box-sizing: border-box; /*Espaçamento interno se matem*/
-    width: 780px;
+    /*box-sizing: border-box;*/ /*Espaçamento interno se matem*/
+    box-sizing: content-box;
+    width: 1280px;
     margin: 0 auto;
     padding: 30px 50px 20px 10px;
     background-color: gray;
@@ -16,7 +17,16 @@ html, body
 
 .artigo
 {
-   margin: 30px 50px 30px 50px;
+  /* margin: 30px 50px 30px 50px;
    margin-bottom: 30px;
-   width: 500px;
+   width: 500px;*/
+   /* margin-top: 3px;
+    margin-right: 15px;*/
+    box-sizing: border-box;
+    border: 5px solid red;
+    margin-right: 3px;
+    display: inline-block;
+    width: 620px;
+    vertical-align: top;
+
 }
