@@ -1,0 +1,56 @@
+html, body
+{
+    height: 100%;
+}
+
+.box
+{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background: lightgray;
+    overflow: hidden;
+  
+}
+
+.box2
+{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background: lightcoral;
+    overflow: auto;
+ 
+}
+
+.box3
+{
+    width: 300px;
+  
+    margin: 0 auto;
+    background: lightgreen;
+    overflow: visible;
+  
+}
+.box4
+{
+    width: 300px;
+  
+    margin: 0 auto;
+    background: lightskyblue;
+    overflow-y: scroll;
+  
+}
+.box5
+{
+    width: 300px;
+   
+    margin: 0 auto;
+    background: lightcyan;
+    overflow-x: scroll;
+  
+}
+
+.box, .box2, .box3, .box4, .box5 p{
+    width: 300px;
+}
