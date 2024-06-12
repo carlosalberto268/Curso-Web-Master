@@ -42,20 +42,10 @@ body
     animation: orbit 36.5s
         linear infinite;
 }
-/*.mercurio
-{
-    top: 5em;
-    left: 5em;
-    width: 30em;
-    height: 30em;
-    animation: orbit 36.5s
-        linear infinite;
-
-} */
 .mercurio::before
 {
-    content:'';
-    position: absolute;
+    content:' ';
+    position:absolute;
     border-radius: 50%;
     top: 2.8em;
     left: 2.8em;
@@ -63,6 +53,17 @@ body
     height: 3em;
     background-color: red ;
 }
+.mercurio
+{
+    top: 5em;
+    left: 5em;
+    width: 30em;
+    height: 30em;
+    animation: orbit 16.5s
+        linear infinite;
+
+} 
+
 @keyframes orbit {
     to {
         transform: rotate(
